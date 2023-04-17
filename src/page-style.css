@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    color: white;
+    background-color: #04A5FF;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-weight: bolder;
+    margin-left: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+/* Responsive Section */
+
+/* Tablet */
+@media screen and (max-width:768px) {
+    nav ul{
+        width: 50%;
+    }
+    
+    .container img{
+        width: 100%;
+        align-items: center;
+    }
+
+    .container .wrapper{
+        width: 50%;
+        text-align: justify;
+        justify-content: center;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width:576px) {
+    nav ul{
+        display: none;
+    }
+
+    .container .wrapper{
+        width: 40%;
+        text-align:center;
+        justify-content: center;
+    }
+}
+
+/* Hero Section */
+
+.container{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.container .wrapper{
+    margin: 28px;
+    max-width: 40%;
+}
+
+.container .wrapper h2{
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.container .wrapper h4{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.container a{
+    background-color:#04A5FF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 5px;
+    margin: 28px;
+    border-radius: 9px;
+}
+
+.container img{
+    display: flex;
+    float: right;
+    z-index: 20px;
+    height: 60%;
+    width: 20%;
+    margin-left: 30px;
+}
+
+/* Native Section */
+.container .native{
+    margin-top: 150px;
+}
+
+.container .native h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
