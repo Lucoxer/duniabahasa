@@ -1,1 +1,1 @@
-"Dunia Bahasa" is a website-based application for learning various languages and being able to converse directly with native speakers. It was created to fulfill the Human-Computer Interaction assignment in 2021
+"Dunia Bahasa"  is a website-based application for learning various languages and engaging in direct conversations with native speakers. The website is designed using HTML, CSS, and Bootstrap. Dunia Bahasa was created to fulfill the Human-Computer Interaction assignment in 2021.
